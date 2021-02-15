@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.customers{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* heading */
+.heading{
+    margin-top: 15px;
+    font-size: 40px;
+    color: rgba(255, 51, 0, 0.993);
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* back to home link */
+.customers p {
+    /* position: relative; */
+    left: 100px;
+    padding: 15px;
+    font-size: large;
+    margin: auto;
+    text-align: center;
+}
+
+.customers p a{
+    text-decoration: none;
+    color: rgba(255, 94, 0, 0.993);
+}
+
+.custmrs{
+    float: left;
+    color: rgba(255, 94, 0, 0.993);
+}
+/* table div */
+.viewcustomer{
+    /* margin-top: 11%; */
+    position: absolute;
+    top: 12rem;
+    left: 7rem;
+}
+
+.tableformat{
+    font-family: 'Roboto Mono', monospace;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    color: rgb(243, 247, 244);
+    border: 3px solid rgba(255, 94, 0, 0.993);
+}
+
+/* link to other information */
+.tableformat td a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.tableformat th{
+    color: rgba(255, 51, 0, 0.993);
+    font-size: 15px;
+    font-weight: 100px;
+}
+.tableformat tr,td,th{
+    padding: 5px;
+    border: 2px solid rgba(255, 94, 0, 0.993);
+}

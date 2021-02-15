@@ -1,0 +1,40 @@
+.transaction_form{
+    position: absolute;
+    /* background-color: red; */
+    top: 13rem;
+    height: 10rem;
+    left: 20rem;
+    width: 50%;
+}
+/* .transaction_form label{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 19px;
+    font-size: 20px;
+    width: 30%;
+} */
+.transaction_form input{
+    display: flex;
+    /* float: right; */
+    width: 50%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid rgba(255, 51, 0, 0.993);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+
+input[type="submit"]{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    width: 10rem;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    background-color: rgba(255, 51, 0, 0.993);;
+}
